@@ -1,0 +1,50 @@
+{
+  "featureInfo": {
+    "districtFeature": {
+      "districts": [{
+        "city": "合肥市",
+        "province": "安徽省"
+      }]
+    },
+    "itFeature": {
+      "its": ["台球", "游泳"]
+    },
+    "keywordFeature": {
+      "keywords": ["宝马", "大众", "标志"]
+    },
+    "relation": "AND"
+  },
+  "mediaId": "wjc",
+  "requestInfo": {
+    "adSlots": [{
+      "adSlotCode": "ad-y",
+      "height": 720,
+      "minCpm": 1000,
+      "positionType": 1,
+      "type": [1, 2],
+      "width": 1080
+    }],
+    "app": {
+      "activityName": "首页",
+      "appCode": "code001",
+      "appName": "广告投放app",
+      "packageName": "com.wjc.package"
+    },
+    "device": {
+      "deviceCode": "code002",
+      "displaySize": "1920*1080",
+      "ip": "123.56.16.37",
+      "mac": "0xxxx0",
+      "model": "8848",
+      "screenSize": "1920*1080",
+      "serialName": "seril1300001111"
+    },
+    "geo": {
+      "city": "北京市",
+      "latitude": 100.28,
+      "longitude": 88.61,
+      "province": "北京市"
+    },
+    "requestId": "aaa"
+  }
+}

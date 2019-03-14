@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: ad-gateway
+server:
+  port: 9000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8001/eureka/
+zuul:
+  prefix: /wjc
+  routes:
+    sponsor:
+      path: /ad-sponsor/**
+      serviceId: ad-sponsor
+      strip-prefix: false
+    search:
+      path: /ad-search/**
+      serviceId: ad-search
+      strip-prefix: false
